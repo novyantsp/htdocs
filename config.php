@@ -31,7 +31,7 @@ if(!$conn) {
 	die("Koneksi Gagal : ".mysqli_connect_error());
 	}
 $config['web'] = array(
-	'url' => 'https://localhost/' // isi domain anda : https://domain.com/
+	'url' => '18.212.161.89' // isi domain anda : https://domain.com/
 	
 );	
 // date & time

@@ -13,6 +13,6 @@
 
 //Pengaturan Website
 $config['web'] = array(
-	'url' => 'https://localhost/' // ex: http://domain.com/
+	'url' => '18.212.161.89' // ex: http://domain.com/
 );
 ?>
