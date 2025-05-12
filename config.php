@@ -21,9 +21,9 @@ if($maintenance == 0) {
 // database
 $config['db'] = array(
 	'host' => 'localhost',
-	'name' => 'ppob',
-	'username' => 'root',
-	'password' => ''
+	'name' => 'ppob_user',
+	'username' => 'ppob_db',
+	'password' => 'passwordku123'
 );
 
 $conn = mysqli_connect($config['db']['host'], $config['db']['username'], $config['db']['password'], $config['db']['name']);
